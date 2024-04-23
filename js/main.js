@@ -12,7 +12,7 @@ const userLastName = prompt('Inserisci il tuo Cognome');
 const userColor = prompt('Inserisci il tuo Colore preferito');
 
 // MODFICA VARIBILE AGGIUNGENDO DATI UTENTE E NUMERO CASUALE
-currentText = currentText + ' ' + userName + ' ' + userLastName + ' ' + ("e il tuo colore preferito è:") + ' ' + userColor + '. ' + ("Visto che ci piace dare i numeri:") + ' ' + '!' + casualNumber + '!';
+currentText = currentText + userName + userLastName + userColor + casualNumber;
 
 // STAMPA SU DOCUMENTO VARIABILE MODIFICATA CON DATI UTENTE 
 document.getElementById('username').innerHTML = currentText;
